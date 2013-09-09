@@ -1,0 +1,18 @@
+.widgets_sociaux {
+width: 500px;
+}
+
+.widgets_list {
+margin:0 auto; 
+width:80%;
+padding:0; 
+list-style:none;
+text-align:center;
+}
+
+.widgets_list li {
+margin:0 5px 0 0; 
+padding:0; 
+float:left;
+horizontal-align:middle;
+}

@@ -1,0 +1,19 @@
+<div classe='widgets_sociaux'>
+<ul class='widgets_list'> 
+	{% for widget in social_widgets %}
+		<li>{% include 'MyToolsComposantSocialBundle:Default:' ~ widget  ~ '.html.twig' %}</li>
+	{%endfor%}
+</ul>
+</div>
+
+<script>
+(function() {
+    var d=document,
+    h=d.getElementsByTagName('head')[0],
+    s=d.createElement('link');
+    s.type='text/css';
+    s.rel='stylesheet';
+	s.href='{{ asset('bundles/mytoolscomposantsocial/css/widgets.css') }}';
+    h.appendChild(s);
+}());
+</script>

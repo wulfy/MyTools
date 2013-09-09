@@ -1,0 +1,11 @@
+parameters:
+    say.class: MyTools\MessagesBundle\Services\Say
+
+services:
+    say:
+        class: %say.class%
+#        arguments: ["plain_value"]
+#        calls:
+#           - [ setData, ["mydata"] ]
+#           - [ sayHello ]
+#        arguments: [@service_id, "plain_value", %parameter%]

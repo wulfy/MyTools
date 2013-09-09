@@ -1,0 +1,16 @@
+#parameters:
+    #social_widgets:
+
+services:
+    MyTools_ComposantSocial.barre_sociale:
+        class: MyTools\ComposantSocialBundle\Controller\BarreSocialeController
+#        arguments:
+#             container: "@service_container"
+#        arguments:
+#            widgets: [%MyTools_ComposantSocial.social_widgets%]
+#       class: %say.class%
+#        arguments: ["plain_value"]
+#        calls:
+#           - [ setData, ["mydata"] ]
+#           - [ sayHello ]
+#        arguments: [@service_id, "plain_value", %parameter%]
